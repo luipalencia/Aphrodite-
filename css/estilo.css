@@ -1,0 +1,129 @@
+body {
+  color: blueviolet;
+  background: -webkit-gradient(linear, 80% 20%, 10% 21%, from(#ADFFE8), to(#FFD6FF));
+  font-family: 'Alegreya Sans SC', sans-serif;
+  padding: 0px; }
+  body p {
+    color: black; }
+  body h1 {
+    color: blueviolet;
+    font-family: 'Josefin Sans', sans-serif; }
+  body .titulo {
+    text-align: center;
+    margin-top: 10px; }
+  body .dropdown-item.active, body .dropdown-item:active {
+    background: blueviolet; }
+  body .featurette-heading {
+    margin-top: 20px; }
+
+.novedades {
+  text-align: center;
+  color: magenta;
+  margin-bottom: 60px; }
+
+.preguntas {
+  text-align: center;
+  color: magenta;
+  margin-bottom: 60px; }
+
+.item1 {
+  transform: rotate(5deg) scale(0.924) skew(-1deg) translate(-3px);
+  -webkit-transform: rotate(5deg) scale(0.924) skew(-1deg) translate(-3px);
+  -moz-transform: rotate(5deg) scale(0.924) skew(-1deg) translate(-3px);
+  -o-transform: rotate(5deg) scale(0.924) skew(-1deg) translate(-3px);
+  -ms-transform: rotate(5deg) scale(0.924) skew(-1deg) translate(-3px);
+  width: 250px;
+  height: 250px;
+  margin-left: 60px; }
+
+.item2 {
+  transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
+  -webkit-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
+  -moz-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
+  -o-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
+  -ms-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
+  width: 250px;
+  height: 250px; }
+
+.imagen {
+  object-fit: cover; }
+
+#iframe {
+  display: block;
+  margin: 0 auto; }
+
+.AnimacionTitulo {
+  -webkit-animation: cssAnimation 1s 2 ease;
+  -moz-animation: cssAnimation 1s 2 ease;
+  -o-animation: cssAnimation 1s 2 ease; }
+
+@-webkit-keyframes cssAnimation {
+  from {
+    -webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+  to {
+    -webkit-transform: rotate(0deg) scale(1) skew(1deg) translate(0px); } }
+
+@-moz-keyframes cssAnimation {
+  from {
+    -moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+  to {
+    -moz-transform: rotate(0deg) scale(1) skew(1deg) translate(0px); } }
+
+@-o-keyframes cssAnimation {
+  from {
+    -o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px); }
+  to {
+    -o-transform: rotate(0deg) scale(1) skew(1deg) translate(0px); } }
+
+.efecto {
+  transition: all 2s; }
+  .efecto .efecto:hover {
+    height: 250px;
+    width: 250px; }
+
+.navbar-light .navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  color: #59139a;
+  opacity: 0.8; }
+
+.nav-link {
+  color: blueviolet !important;
+  font-size: 18px;
+  margin: 10px; }
+
+.wishlist {
+  background-color: #59139a66; }
+
+table {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  text-align: justify; }
+  table td, table th {
+    background-color: pink;
+    border: 1px dotted;
+    text-align: left;
+    padding: 8px; }
+  table tr {
+    height: 50px; }
+
+.contenedorFlexBoxDos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+  background-color: rgba(250, 250, 250, 0.8); }
+
+.contenedorFlexBoxDos .item {
+  padding: 45px;
+  margin: 30px;
+  justify-content: center; }
+
+@media (min-width: 230px) and (max-width: 438px) {
+  grid-template-columns: auto;
+  grid-template-rows: auto; }
+
+@media (min-width: 439px) and (max-width: 768px) {
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto auto; }
