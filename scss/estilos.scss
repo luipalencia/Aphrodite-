@@ -2,12 +2,17 @@
 @import "imagen";
 @import "efectos";
 
+#logo {
+width: 110px;
+} 
 .navbar-light .navbar-brand {
   font-size: 25px;
   font-weight: bold;
   color: #59139a;
-  opacity: 0.8; }
-
+}
+.bg-light {
+  background-color: rgba(255,255,255,0.6)!important;
+}
 .nav-link {
   color: blueviolet!important;
   font-size: 18px;
@@ -37,7 +42,7 @@ tr {
   align-items: center;
   width: 100%;
   margin-top: 50px;
-  background-color: rgba(250, 250, 250, 0.8);
+  background-color: rgba(255,255,255,0.6);
 }
 .contenedorFlexBoxDos .item {
   padding: 45px;
