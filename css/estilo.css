@@ -16,6 +16,8 @@ body {
     text-align: center; }
   body .dropdown-item.active, body .dropdown-item:active {
     background: blueviolet; }
+  body .page-link {
+    color: blueviolet; }
   body .featurette-heading {
     margin-top: 20px; }
   body .preguntas {
@@ -24,7 +26,7 @@ body {
     margin-bottom: 60px; }
   body .t-stroke-shadow {
     color: #e8858e;
-    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2; }
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px blueviolet; }
 
 .item1 {
   transform: rotate(5deg) scale(0.924) skew(-1deg) translate(-3px);
@@ -76,7 +78,7 @@ body {
     -o-transform: rotate(0deg) scale(1) skew(1deg) translate(0px); } }
 
 .efecto {
-  transition: all 2s; }
+  transition: all 1s; }
 
 .efecto:hover {
   height: 250px;
@@ -84,6 +86,12 @@ body {
 
 #logo {
   width: 110px; }
+
+.breadcrumb {
+  background-color: rgba(255, 255, 255, 0); }
+
+.whitesmoke {
+  background-color: whitesmoke; }
 
 .navbar-light .navbar-brand {
   font-size: 25px;
@@ -99,7 +107,45 @@ body {
   margin: 10px; }
 
 .wishlist {
-  background-color: blue; }
+  background-color: aquamarine; }
+
+.lightgrey {
+  background-color: lightgrey; }
+
+.navbar-light .navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  color: #59139a; }
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0.6) !important; }
+
+.nav-link {
+  color: blueviolet !important;
+  font-size: 18px;
+  margin: 10px; }
+
+.wishlist {
+  background-color: aquamarine; }
+
+.silver {
+  background-color: silver; }
+
+.navbar-light .navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+  color: #59139a; }
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0.6) !important; }
+
+.nav-link {
+  color: blueviolet !important;
+  font-size: 18px;
+  margin: 10px; }
+
+.wishlist {
+  background-color: aquamarine; }
 
 footer {
   margin-top: 20px;

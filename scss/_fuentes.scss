@@ -23,7 +23,9 @@ h1 {
 .dropdown-item.active, .dropdown-item:active {
   background: blueviolet;
 }
-
+.page-link {
+  color: blueviolet;
+}
 .featurette-heading {
   margin-top: 20px;
 }
@@ -34,6 +36,6 @@ h1 {
 }
 .t-stroke-shadow {
     color: #e8858e;
-    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px blueviolet;
 }
 }

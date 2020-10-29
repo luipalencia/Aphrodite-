@@ -2,9 +2,18 @@
 @import "imagen";
 @import "efectos";
 
+$color: whitesmoke;
+
 #logo {
 width: 110px;
 }
+.breadcrumb {
+  background-color: rgba(255, 255, 255, 0);
+}
+@each $color in whitesmoke, lightgrey, silver {
+   .#{$color} {
+     background-color: #{$color};
+   }
 .navbar-light .navbar-brand {
   font-size: 25px;
   font-weight: bold;
@@ -17,10 +26,10 @@ width: 110px;
   color: blueviolet!important;
   font-size: 18px;
   margin: 10px; }
-  
-.wishlist {
-  background-color: blue; }
 
+.wishlist {
+  background-color: aquamarine; }
+}
 footer {
   margin-top: 20px;
   padding-top: 20px;
