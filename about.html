@@ -82,7 +82,7 @@
     <div class="row">
       <div class="col">
           <h3>Si tienes dudas o necesitas un producto en especifico, escríbenos</h3>
-          <form action="#" method="POST">
+          <form id="form" action="#" method="POST">
           <label for="name">Nombre</label>
           <input type="text" id="name" name="name"><br><br>
           <label for="email">Confirmo tengo mayoría de edad</label>
@@ -102,40 +102,43 @@
     </div>
     </div>
     </div>
-  <!-- FOOTER -->
-  <footer>
-      <div class="container">
-        <div class="row">
-        <div class="col-12 d-flex justify-content-center">
-          <h2>Newsletter</h2>
-          <form action="#" method="POST">
-          <input type="email" placeholder="ejemplo@email.com" required>
-          <input type="submit" value="Suscribirse">
-          <p class="blockquote-footer">Puede darse de baja en cualquier momento. Para ello, consulte nuestra información de contacto en el aviso legal.</p>
-          </form>
-        </div>
-          <div class="row d-flex justify-content-between p-2 flex-fill bd-highlight">
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+          <div class="row">
+          <div class="col d-flex justify-content-center row align-items-end">
+            <h2 id="newsletter">Newsletter</h2>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            </div>
+            <button type="button" class="btn btn-outline-light btn-sm" value="Suscribirse">Suscribirse</button>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <p class="text-muted">Puede darse de baja en cualquier momento. Para ello, consulte nuestra información de contacto en el aviso legal.</p>
+          </div>
+            <div class="row d-flex justify-content-between p-2 flex-fill bd-highlight">
+            <div class="col">
+            <h2>Síguenos en nuestras redes</h2>
+            <img class="shadow redes" src="imagenes/fb.png" alt="" width="30px">
+            <img class="shadow redes" src="imagenes/wapp.png" alt="" width="30px">
+            <img class="shadow redes" src="imagenes/ig.png" alt="" width="30px">
+            </div>
           <div class="col">
-          <h2>Síguenos en nuestras redes</h2>
-          <img class="shadow" src="imagenes/fb.png" alt="" width="50px" height="50px">
-          <img class="shadow" src="imagenes/wapp.png" alt="" width="50px" height="50px">
-          <img class="shadow" src="imagenes/ig.png" alt="" width="50px" height="50px">
-        </div>
-        <div class="col">
-          <h2>Medios de pago</h2>
-          <ul>
-            <li>Transferencias Bancarias</li>
-            <li>Efectivo</li>
-          </ul>
-        </div>
-        <div class="col">
-          <h2>Envíos por</h2>
-          <img class="shadow rounded-pill" src="imagenes/starken.jpg" alt="" width="100px" height="100px">
-          <img class="shadow rounded-pill" src="imagenes/express.png" alt="" width="170px" height="100px">
+            <h2>Medios de pago</h2>
+            <ul>
+              <li>Transferencias Bancarias</li>
+              <li>Efectivo</li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2>Envíos por</h2>
+            <img class="shadow rounded-pill redes" src="imagenes/starken.jpg" alt="" width="50px">
+            <img class="shadow rounded-pill redes" src="imagenes/express.png" alt="" width="100px">
+            <img class="shadow rounded-pill redes" src="imagenes/correos.png" alt="" width="50px">
+          </div>
+          </div>
         </div>
         </div>
-      </div>
-    </div>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
