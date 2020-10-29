@@ -1,30 +1,30 @@
 body {
   color: blueviolet;
   background: -webkit-gradient(linear, 80% 20%, 10% 21%, from(#ADFFE8), to(#FFD6FF));
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 0px; }
   body p {
-    color: black; }
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif; }
   body h1 {
     color: blueviolet;
     font-family: 'Josefin Sans', sans-serif; }
   body .titulo {
     text-align: center;
     margin-top: 10px; }
+  body .titulosPreguntas {
+    text-align: center; }
   body .dropdown-item.active, body .dropdown-item:active {
     background: blueviolet; }
   body .featurette-heading {
     margin-top: 20px; }
-
-.novedades {
-  text-align: center;
-  color: magenta;
-  margin-bottom: 60px; }
-
-.preguntas {
-  text-align: center;
-  color: magenta;
-  margin-bottom: 60px; }
+  body .preguntas {
+    text-align: center;
+    color: magenta;
+    margin-bottom: 60px; }
+  body .t-stroke-shadow {
+    color: #e8858e;
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2; }
 
 .item1 {
   transform: rotate(5deg) scale(0.924) skew(-1deg) translate(-3px);
@@ -37,11 +37,11 @@ body {
   margin-left: 60px; }
 
 .item2 {
-  transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
-  -webkit-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
-  -moz-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
-  -o-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
-  -ms-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
+  transform: rotate(-2deg) scale(0.92) skew(2deg) translate(-3px);
+  -webkit-transform: rotate(-2deg) scale(0.92) skew(2deg) translate(-3px);
+  -moz-transform: rotate(-2deg) scale(0.92) skew(2deg) translate(-3px);
+  -o-transform: rotate(-2deg) scale(0.92) skew(2deg) translate(-3px);
+  -ms-transform: rotate(-2deg) scale(0.92) skew(2deg) translate(-3px);
   width: 250px;
   height: 250px; }
 
@@ -99,32 +99,12 @@ body {
   margin: 10px; }
 
 .wishlist {
-  background-color: #59139a66; }
+  background-color: blue; }
 
-table {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 25px;
-  text-align: justify; }
-  table td, table th {
-    background-color: pink;
-    border: 1px dotted;
-    text-align: left;
-    padding: 8px; }
-  table tr {
-    height: 50px; }
-
-.contenedorFlexBoxDos {
-  display: inline-flex;
-  flex-wrap: wrap;
-  align-items: center;
-  width: 100%;
-  margin-top: 50px;
+footer {
+  margin-top: 20px;
+  padding-top: 20px;
   background-color: rgba(255, 255, 255, 0.6); }
-
-.contenedorFlexBoxDos .item {
-  padding: 45px;
-  margin: 30px;
-  justify-content: center; }
 
 @media (min-width: 230px) and (max-width: 438px) {
   grid-template-columns: auto;

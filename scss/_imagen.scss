@@ -8,19 +8,18 @@
   height: 250px;
   margin-left: 60px;
 }
-
 .item2 {
-  transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
-  -webkit-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
-  -moz-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
-  -o-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
-  -ms-transform: rotate(-1deg) scale(0.924) skew(3deg) translate(-3px);
+  transform: rotate(-2deg) scale(0.920) skew(2deg) translate(-3px);
+  -webkit-transform: rotate(-2deg) scale(0.920) skew(2deg) translate(-3px);
+  -moz-transform: rotate(-2deg) scale(0.920) skew(2deg) translate(-3px);
+  -o-transform: rotate(-2deg) scale(0.920) skew(2deg) translate(-3px);
+  -ms-transform: rotate(-2deg) scale(0.920) skew(2deg) translate(-3px);
   width: 250px;
   height: 250px;
 }
 .imagen {
   object-fit: cover; }
 
-  #iframe {
-    display: block;
-    margin: 0 auto; }
+#iframe {
+  display: block;
+  margin: 0 auto; }

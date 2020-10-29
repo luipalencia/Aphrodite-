@@ -1,11 +1,12 @@
 body {
   color: blueviolet;
   background: -webkit-gradient(linear, 80% 20%, 10% 21%, from(#ADFFE8), to(#FFD6FF));
-  font-family: 'Alegreya Sans SC', sans-serif;
+  font-family: 'Raleway', sans-serif;
   padding: 0px;
 
 p {
-  color: black; }
+  color: black;
+  font-family: 'Alegreya Sans SC', sans-serif;}
 
 h1 {
   color: blueviolet;
@@ -15,18 +16,24 @@ h1 {
   text-align: center;
   margin-top: 10px; }
 
+.titulosPreguntas {
+  text-align: center;
+  }
+
 .dropdown-item.active, .dropdown-item:active {
-  background: blueviolet; }
+  background: blueviolet;
+}
 
 .featurette-heading {
-  margin-top: 20px; }
+  margin-top: 20px;
 }
-.novedades {
-  text-align: center;
-  color: magenta;
-  margin-bottom: 60px; }
-
 .preguntas {
   text-align: center;
   color: magenta;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+}
+.t-stroke-shadow {
+    color: #e8858e;
+    text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+}
+}
