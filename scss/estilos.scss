@@ -60,6 +60,9 @@ footer {
 #newsletter {
   margin: 25px 25px 0px 0px;
 }
+.container-main {
+  min-height: 471px;
+}
 .form-control {
   margin-top: 30px;
 }
@@ -79,5 +82,14 @@ footer {
 @media (min-width: 439px) and (max-width: 768px) {
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto auto auto;
+
+}
+@media (min-width: 2049px) {
+    .footer-bottom {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+    }
+
 
 }
