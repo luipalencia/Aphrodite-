@@ -36,7 +36,7 @@ body {
   -ms-transform: rotate(5deg) scale(0.924) skew(-1deg) translate(-3px);
   width: 250px;
   height: 250px;
-  margin-left: 60px; }
+  margin-left: 30px; }
 
 .item2 {
   transform: rotate(-2deg) scale(0.92) skew(2deg) translate(-3px);
@@ -107,6 +107,9 @@ body {
 .pointer {
   cursor: pointer; }
 
+.rowFooter {
+  margin: 0; }
+
 .nav-link {
   color: blueviolet !important;
   font-size: 18px;
@@ -131,6 +134,9 @@ body {
 
 .pointer {
   cursor: pointer; }
+
+.rowFooter {
+  margin: 0; }
 
 .nav-link {
   color: blueviolet !important;
@@ -157,6 +163,9 @@ body {
 .pointer {
   cursor: pointer; }
 
+.rowFooter {
+  margin: 0; }
+
 .nav-link {
   color: blueviolet !important;
   font-size: 18px;
@@ -169,6 +178,16 @@ footer {
   margin-top: 20px;
   padding: 10px 0;
   background-color: rgba(255, 255, 255, 0.6); }
+
+.carousel-caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  bottom: initial; }
+
+.line-title-slider {
+  line-height: 1; }
 
 .redes {
   margin: 0 5px; }

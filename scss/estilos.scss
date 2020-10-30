@@ -28,6 +28,9 @@ width: 110px;
 .pointer {
   cursor: pointer;
 }
+.rowFooter {
+  margin: 0;
+}
 .nav-link {
   color: blueviolet!important;
   font-size: 18px;
@@ -40,6 +43,16 @@ footer {
   margin-top: 20px;
   padding: 10px 0;
   background-color: rgba(255,255,255,0.6);
+}
+.carousel-caption {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  bottom: initial;
+}
+.line-title-slider {
+  line-height: 1;
 }
 .redes {
   margin: 0 5px;
